@@ -1,0 +1,74 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');");
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+
+header .navbar {
+ height: 100px;
+ width: 100%;
+ background: #0b1320;
+}
+
+.navbar .logo{
+    height: 100%;
+    width: 150px;
+    background-image:url("logoprime.png") ;
+    background-size:cover ;
+    position: relative;
+    top: -30px;
+    left: 15px;
+    /*border: 1px solid #fff;*/
+}
+
+main .pic1 ,.pic2 ,.pic3,.pic4{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.pic1{
+    background-image: url("homepage.png");
+    background-size: cover;
+}
+.pic2{
+    background-image: url("sign\ up.png");
+    background-size: cover;
+}
+.pic3{
+    background-image: url("login.png");
+    background-size: cover;
+}
+.pic4{
+    background-image: url("kk\ page.png");
+    background-size: cover;
+}
+
+.colorlibcopy-agile {
+    margin: 2em 0 1em;
+    text-align: center;
+    color: #fff;
+    background-color: #4c5262;
+  }
+  
+  
+
+@media screen and (max-width:600px){
+    body{
+        height: 100%;
+        width: auto;
+        position:relative;
+    }
+
+    header .navbar{
+     position: relative;
+     
+    }
+
+    main .pic1 ,.pic2 ,.pic3,.pic4{
+        height: 190px;
+        background-size: cover;
+    }
+
+}
